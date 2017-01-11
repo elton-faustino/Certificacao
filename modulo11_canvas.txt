@@ -1,0 +1,34 @@
+CANVAS
+
+No css on canvas
+No DOM
+
+For large resolution SVG is better
+
+• arc() and arcTo(): Draw an arc.
+• quadraticCurveTo(): Draw a quadratic Bezier curve.
+• bezierCurveTo(): Draw a cubic Bezier curve.
+
+beginPath()
+moveTo()
+lineTo()
+closePath()
+stroke()
+fill()
+strokeStyle()
+fillStyle()
+rgb()
+rgba()
+clearRect()
+
+• createLinearGradient()
+• createRadialGradient()
+• createPattern()
+addColorStop()
+lineWidth
+
+• rotate(angle): Rotates the coordinate system by the specified angle clockwise in radians.
+• translate(dx, dy): Translates the coordinate system by the specified distance in the X and Y directions.
+• scale(sx, sy): Scales the coordinate system by the specified fraction in the X and Y directions.
+• transform(scaleX, skewX, scaleY, skewY, translateX, translateY): Adjusts the current transformation matrix to perform scaling, skewing, and translation.
+• setTransform(scaleX, skewX, scaleY, skewY, translateX, translateY):

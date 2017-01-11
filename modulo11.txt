@@ -1,0 +1,74 @@
+MODULO 11 - CREATE ADVANCED GRAPHICS
+<rect>
+<ellipse>
+<polyne>
+
+<canvas>
+
+SVG
+<rect>
+<text>
+<ellipse>
+<polyogn>
+<path>
+
+document.querySelector()
+document.getElementById()
+
+<rect x="50" y="50" width="200" height="200" fill="blue", stroke="black" rx="0" ry="0" >
+<circle cx="150" cy="50" r="40" fill="red" stroke="black">
+<ellipse cx="500" cy="50" rx="100" ry="10" fill="blue" stroke="black">
+<polyline points="300 50, 350, 50, 400 25, 450 50" fill="none" stroke="blue"/>
+<polygon points="500 50, 550 50, 550 100, 500 100" fill="yellow"/> //shape fechado
+
+<path d/>
+M -> mover para um local novo, sem desenhar uma linha
+L -> desenhar a linha do ponto atual até um novo ponto
+A -> desenhar um arco elipitico
+Q -> Bezier curve com um ponto
+Z -> fecha o último ponto ao primeiro
+
+stroke-opacity
+fill-opacity
+stroke-width
+fill-rule ???
+stroke-dasharray
+
+<linearGradient x1="0%" y1="0%" x2="100%" y2="0%">		
+	<stop offset="0.2" stop-color="yellow" />
+</linearGradient>
+
+<radialGradient id="gradient2" fx="0.3" fy="0.3">
+	<stop offset="0.1" stop-color="yellow" />
+	<stop offset="0.7" stop-color="red" />
+</radialGradient>
+
+<pattern>
+
+******---******
+<defs> define um gradiente e o utiliza depois
+	<linearGradient id="gradient1" ... />
+	<radialGradient id="gradient2" ... />
+	<pattern id="wales" ... />
+</defs>
+<polygon points="50,50 250,50 150,200" fill="url(#gradient1)" />
+<ellipse cx="150" cy="50" rx="100" ry="20" fill="url(#wales)" />
+******---******
+
+text decoration
+• underline
+• overline
+• line-through
+• blink
+
+<g fill="yellow" stroke="purple" stroke-width="2" font-size="36" fontfamily="verdana" font-weight="bold">
+	Agrupar elementos que possuem as mesmas regras
+</g>
+
+<text font-size="46" fill="red" font-family="Verdana">
+	<textPath xlink:href="#wavyPath1">
+		Mae hen wlad fy nhadau yn annwyl i mi!
+	</textPath>
+</text>
+
+<tspan dy="-30" fill="green" font-size="33">3</tspan>

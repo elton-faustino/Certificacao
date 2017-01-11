@@ -1,0 +1,24 @@
+﻿MÓDULO 5
+
+*Elementos que possuem o atributo src são 5.
+<image>
+<iframe>
+<script>
+<video>
+<audio
+
+XMLHttpRequest
+->GET
+->POST
+->HEAD
+
+async
+request.open("GET", url);
+
+not async
+request.open("GET", url, false);
+
+$.get('http://localhost:59243/Site/Home/RetornaJson', function (data) {
+$.getJSON('http://localhost:59243/Site/Home/RetornaJson', function (data) {
+$('#container').load('http://localhost:59243/Site/Home/RetornaJson', function(data){})
+$.ajax({}).done(function()).fail(function())

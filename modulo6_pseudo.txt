@@ -1,0 +1,55 @@
+MODULO 6 - PSEUDO ELEMENTOS
+:nth-child(1) //indice 1
+:first-line
+:first-letter
+:after
+:before
+:fisrt-child
+:last-child
+:selection
+
+link pseudo classes
+
+a:link
+a:visited
+a:active
+a:hover
+a:focus
+*links devem ser definidos na order
+LVFOA : link, visited, focus, hover e active
+
+form pseu class
+
+input:enabled
+input:disabled
+input:checked
+input:valid
+input:invalid
+
+:first-child 		/ of-type
+:last-child 		/ of-type
+:only-child 		/ of-type
+:nth-child 		/ of-type
+:nth-last-child		/ of-type 
+
+
+structural pseudo classes
+:target
+:root
+:not
+:empty
+
+HSL tres argumentos
+HSLA quatro argumentos o ultimo eh a opacidade entre 0 e 1
+
+html {
+background: -ms-linear-gradient(30deg, lightblue, green, yellow);
+}
+
+html {
+background: -ms-radial-gradient(top right, ellipse, red, blue);
+}
+
+Transformation
+	transform:rotate(10deg)
+	

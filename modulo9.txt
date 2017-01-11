@@ -1,0 +1,50 @@
+MODULO 9
+
+-> Cookies can only store a very small amount of data, up to 4 KB.
+
+-> The data held in cookies is shared between these tabs.
+
+-> Session Storage API and the Local Storage API.
+
+Ex:
+if (window.sessionStorage) {
+	sessionStorage["data"] = document.getElementById("data").value;
+	sessionStorage.getItem("data");
+}
+
+for(var i=0; i<sessionStorage.length; i++)
+	sessionStorage.key(i)
+
+sessionStorage.removeItem("data");
+sessionStorage.clear();
+
+LOCAL STORAGE
+-> itens sao persistidos mesmo da sessao ter acabado
+
+INDEXED DB
+-> var attendeeStore = db.createObjectStore("attendees", { keyPath: "id" });
+-> put(), modify an existing object
+-> add()
+
+CACHE
+-> cache manifest
+	CACHE
+	NETWORK
+	FALLBACK
+
+-> referenciar o manifesto cache <html manifest="appcache.manifest">
+
+applicationCache.addEventListener( "error", function() {
+alert( "Error while downloading resources to the application cache");
+}, true );
+
+
+
+Status 		Meaning 	Description
+0 		UNCACHED 	The page is not associated with a cache. No resources have been downloaded
+1 		IDLE 		All cached resources have been downloaded. The cached event has been fired.
+2		CHECKING 	The cache is being checked for updates to download. The checking event has been fired. If no updates arefound, the noupdate 				event is fired.
+3 		DOWNLOADING	Resources are being downloaded to the cache. The downloading event has been fired.
+4 		UPDATEREADY 	The cache has been updated with new resources, and all resources have been downloaded. The updateready
+				event has been fired.
+5		OBSOLETE 	The manifest is missing and no cache is available. The obsolete event has been fired.

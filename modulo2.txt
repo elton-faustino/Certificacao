@@ -1,0 +1,29 @@
+tags importantes html5
+
+<header>
+<footer>
+<nav>
+<aside>
+<section>
+<article>
+<hgroup>
+<time>
+<mark>
+<small>
+<figure>
+<figcaption>
+
+CSS -   Tipografia
+	letter-spacing
+	line-height
+	text-align
+	text-decoration
+	text-transform
+
+visibility
+display
+position
+float
+overflow
+box-sizing
+

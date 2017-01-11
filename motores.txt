@@ -1,0 +1,4 @@
+Webkit -> Safari, Google Chrome
+Gecko -> Firefox, Mozilla, Camino
+Trident -> Internet Explorer 4 ao 9
+Presto -> Opera 7 ao 10

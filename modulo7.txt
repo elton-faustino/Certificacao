@@ -1,0 +1,52 @@
+MODULO 7
+
+*Funcoes Imediatas
+(function(){
+})();
+
+*Namespace
+var namespace = {
+	mostrar : function(){
+	},
+
+	message: "Olá"
+}
+
+Obs: Se vc nao colocar var antes de uma variavel ela sera de escopo global
+para evitar isso eh necessario o uso da palavra "use strict".
+
+Singleton
+	Math
+	JSON
+
+Globais
+parseInt(), parseFloat(), and isNan().
+
+Criacao de objetos
+var objeto = new Object();
+var objeto = {};
+
+Obs: Javascript nao possui socreescrita de metodos,
+this refere-se ao objeto atual.
+
+Prototype, compartilhar funcoes entre objetos que usaram o mesmo construtor.
+
+Object.create()
+Object.getPrototypeOf()
+
+Object.create(null, {
+	prop1 : {value : "teste"},
+	prop2 : {valie : "outro"}
+});//criar objeto baseado no prototype
+
+com null nao tera o toString() nem o +
+Object.create(Object.getPrototypeOf(acc1));
+
+privado -> omitir a palavra this
+public  -> usar a palavra this
+
+Obs: Métodos definidos no prototype nao enxergam variaveis privadas
+Obs: usar : no prototype, this sempre retorna o valor atual da instancia
+
+metodos aplly
+FuncaoSemParenteses.aplly(objeto, ["red"]);

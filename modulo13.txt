@@ -1,0 +1,18 @@
+MODULO 13
+
+continuous pooling
+short pooling
+
+http -> half-duplex
+
+implementacao dos browsers segundo
+	RFC6455-> define o mecanismo de transporte com o minimo de informacao adicional possivel
+	WebSockets API
+
+• CONNECTING (0), which indicates that a WebSocket object has been created, but a connection is
+still being made between page and server.
+• OPEN (1), which indicates that a connection between page and server has been established.
+• CLOSING (2), which indicates that the closing handshake is in progress.
+• CLOSED (3),
+
+onmessage

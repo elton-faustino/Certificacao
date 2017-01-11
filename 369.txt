@@ -1,0 +1,2 @@
+uma pagina pode fechar um webworker pelo metodo terminate();
+um web worker pode terminar ele mesmo pelo método close();

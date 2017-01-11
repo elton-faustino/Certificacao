@@ -1,0 +1,92 @@
+string, boolean e number
+
+variáveis declaradas sem valor são definidas como 'undefined'
+
+typeof: determina o tipo da variável
+
+=== igualdade entre o valor e o tipo
+!== diferença entre o valor e o tipo
+
+0, "", undefined, null == false
+
+toLowerCase()
+indexOf()
+regex.test()
+
+JSON
+var objeto = 
+{
+	"nome" : "elton",
+	"idade" : "22"
+}
+
+var lista = 
+[
+	{
+		"nome" : "elton",
+		"idade" : "22"
+	},
+	{
+		"nome" : "teste",
+		"idade" : "1"
+	}
+]
+
+(JSON.stringify), and for parsing JSON data (JSON.parse).
+
+document.forms
+document.images
+document.links
+document.anchors
+
+document.getElementById()
+document.getElementByName()
+
+document.createElement(tagname)
+document.createTextNode(string)
+document.createAttribute(name, value)
+document.createDocumentFragment
+ 
+ childNodes, which returns all the child nodes of a node.
+ firstChild, which returns the first child of a node.
+ lastChild, which returns the last child of a node.
+ nextSibling, which returns the node immediately following the current one.
+ parentNode, which returns the parent node of a node.
+ previousSibling, which returns the node immediately prior to the current node.
+ 
+<ul id="VenueList">
+	<li>Room A</li>
+	<li>Room B</li>
+</ul>
+ 
+var list = document.getElementById("VenueList");
+
+var newItem = document.createElement("li");
+newItem.textContent = "Room C";
+
+list.appendChild(newItem);
+
+document.removeChild(
+document.getElementById("VenueList").firstChild);
+ removeAttribute(attributeName), which removes the named attribute from the element node.
+var list = document.getElementById("VenueList");
+list.removeAttribute("id");
+
+ removeAttributeNode(node), which removes the given attribute node from the element.
+var list = document.getElementById("VenueList");
+list.removeAttribute(list.attributes[0]);
+
+JQUERY
+find()
+contains()
+last()
+next(): pega o proximo elemento e nao o elemento interno
+prev()
+parent()
+siblings()
+size()
+
+each(function())
+       eq() 	0 index based
+nth-child() 	1 index based
+    first()

@@ -1,0 +1,33 @@
+MODULO 10 - MEDIA QUERIES
+
+tipos de media
+
+speech 		: sintetizadores
+braile 		: braile screen readers
+embossed 	: impressoras brailes
+handheld 	: small mobile devices
+print 		: impressoras
+projection 	: projetores
+screen 		: telas de computadores
+tty 		: teletypes
+tv 		: tvs e outros dispositivos com pouco habilidade para scroll
+all 		: aplicável a todos os dispositivos
+
+características da media query
+
+width
+height
+device-width
+device-height
+orientation
+resolution
+aspect-ratio
+device-aspect-ratio
+color
+color-index
+monochrome
+
+scan ->
+grid -> não podem ser decorados com min e max
+
+@page

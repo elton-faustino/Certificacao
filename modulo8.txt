@@ -1,0 +1,14 @@
+FILE READER
+
+var reader = new FileReader();
+reader.onload = function(e){
+
+}
+reader.ReadAsText();
+
+-------------------
+<video scr> ou
+
+<video>
+	<source src></source>
+</video>

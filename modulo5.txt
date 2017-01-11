@@ -1,0 +1,31 @@
+﻿MÓDULO 5
+
+readyState
+0 -> objeto nao aberto
+1 -> objeto foi aerto
+2 -> objeto mandou a requisicao
+3 -> objeto comecou a receber a respota
+4 -> objeto recebeu a resposta
+
+*Elementos que possuem o atributo src são 5.
+<image>
+<iframe>
+<script>
+<video>
+<audio
+
+XMLHttpRequest
+->GET
+->POST
+->HEAD
+
+async
+request.open("GET", url);
+
+not async
+request.open("GET", url, false);
+
+$.get('http://localhost:59243/Site/Home/RetornaJson', function (data) {
+$.getJSON('http://localhost:59243/Site/Home/RetornaJson', function (data) {
+$('#container').load('http://localhost:59243/Site/Home/RetornaJson', function(data){})
+$.ajax({}).done(function()).fail(function())

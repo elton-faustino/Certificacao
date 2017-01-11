@@ -1,0 +1,43 @@
+MODULO 5
+
+Elementos novos
+<div><input type="date" /> date</div>
+<div><input type="datetime" /> datetime</div><div><input type="datetime-local" /> datetimelocal	</div>
+<div><input type="time" /> time</div>
+<div><input type="week" /> week</div>
+<div><input type="month" /> mes</div>
+<div><input type="email" placeholder="Informe seu email"  autocomplete="on"/> email</div>	
+<div><input type="file"/> file</div>
+<div><input type="color" /> color</div>
+<div><input type="image" /> image</div>
+<div><input type="number" /> number</div>
+<div><input type="password" /> password</div>
+<div><input type="radio" /> radio</div>
+<div><input type="range" /> range</div>
+<div><input type="reset" /> reset</div>
+<div><input type="search" /> search</div>
+<div><input type="tel" /> tel</div>
+<div><input type="url" /> url</div>
+
+<input id="auto" list="teste"/>
+<datalist id="teste">
+	<option value="valor1"/>
+	<option value="valor2"/>
+	<option value="valor3"/>
+</datalist>
+
+//em select list
+<optgroup label="Brasil"/>
+	<option value="volvo">Volvo</option>
+</optgroup>
+
+autofocus on
+autocomplete on
+required
+pattern
+placeholder
+
+input:valid{}
+input:invalid{}
+
+CustomValidity flag indica que o form deve ser corrigido antes de ser submetido

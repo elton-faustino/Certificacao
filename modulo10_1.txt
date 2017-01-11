@@ -1,0 +1,19 @@
+modulo 10 - lesson 1
+<wbr/>
+
+text-indent, hyphens, word-wrap, and word-spacing -> modulo 6
+
+document.documentElement.offsetHeight viewport
+document.documentElement.offsetWidth  viewport
+
+-> Module 6, "Styling HTML5 by Using CSS3",
+-> Scalable Vector Graphics (SVG),
+
+• Buttons and Links: Make buttons and links larger than normal so users can easily identify them and
+tap them with a finger. Again, consider changing list-based menus into one larger drop-down menu
+to enhance usability.
+• Hovering: Hover states do not exist on a touch-based device. There is no way to simulate a mouse
+pointer over a link, so don't use the hover pseudo-class.
+• Screen Orientation: Touch-based devices are nearly all handheld and can usually change their
+orientation depending on how the user holds them. Make sure your design works in both landscape
+and portrait mode. Switching between the two is effectively a change in resolution, so treat it as such

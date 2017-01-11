@@ -1,0 +1,55 @@
+Modulo 1
+
+******HTML******
+
+Tipos de DOCTYPE
+->Transitional: uso antigo de ELEMENTOS inutilizaveis de outras versões
+->Frameset: possibilita o uso de FRAMES
+->Strict:  não permite o uso de tags antigas nem o uso de frames
+
+Elementos: tag e conteúdo
+Atributo: tag inicial, nome e valor
+
+Atributos globais
+	->accesskey
+	->class
+	->contenteditable
+	->contextmenu
+	->dir
+	->dragglable
+	->dropzone
+	->hidden
+	->id
+	->lang
+	->spellcheck
+	->style
+	->tabindex
+	->title
+	->translate	
+
+<pre></pre> -> considera espaços em branco, tabs, cr
+
+<!--definition list chave e valor-->
+<dl>
+	<dt>Elton</dt>
+	<dd>Fatec</dd>
+	<dt>Ronaldo</dt>
+	<dd>IF</dd>
+</dl> 
+
+img 
+	->alt: quando ocorre algo inesperado
+	->title: tool tip
+	->src: caminho
+<input type="reset"/>
+
+******HTML******
+
+******CSS******
+
+input[type="text"]
+input[type^=""]{} //começa com
+input[type$=""]{} //terina com
+input[type=""]{} //contém
+
+******CSS******

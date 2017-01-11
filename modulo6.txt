@@ -1,0 +1,100 @@
+MODULO 6
+
+*****LIÇÃO 1*****
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('Roboto-Regular-webfont.ttf') format('truetype');
+	}
+
+p{
+	font-family: 'RobotoRegular';
+}
+
+@font-face ->
+	font-family
+	src
+	font-stretch
+	font-style
+	font-weight
+	unicode-range
+
+format ->
+	embeddedopentype,
+	woff, 
+	truetype, 
+	and svg
+
+6 unidades para medida absoluta
+• Centimeters.
+• Millimeters (mm): 10 millimeters = 1 centimeter.
+• Inches      (in): 1 inch = 2.54 centimeters.
+• Picas       (pc): 1 pica = 12 points = 1/6th of an inch.
+• Points      (pt): 1 point = 1/72nd of an inch.
+• Pixels      (px): 1 pixel = 1/96th of an inch.
+
+7 unidades para medida relativa
+• em: 1em = the current font size of the current element.
+• ex: 1ex = the height of the font's lowercase x-height, or 0.5 em if not calculable.
+• ch: 1ch = the width of the font's 0 (zero) character.
+• rem: 1rem = the size of the font defined on the html element (16px default).
+• vw: 1vw = 1% of the width of the viewport.
+• vh: 1vh = 1% of the height of the viewport.
+• vmin: vmin = the smaller of vh and vw.
+
+Ex: calc(100vw - 5px)
+
+p{
+	text-indent: 1rem;
+	/*text-shadow: 1px 1px 2px blue;*/
+	text-align: justify;
+	hyphens: auto;
+	word-wrap:break-word;
+	width: calc(100vw / 5);
+	margin:10px;
+	float: left;
+	word-spacing: 3px;
+	text-shadow:0 1px 0 #000;
+}
+
+#conteudo{
+	
+	position: absolute;
+}
+
+*****LIÇÃO 1*****
+
+*****LIÇÃO 2*****
+CSS BLOCK ELEMENTS
+
+outline: 2px solid green;
+outline-offset: 5px;
+ =
+outline-width: 2px;
+outline-style: solid;
+outline-color: green;
+outline-offset: 5px;
+
+overflow -> visible, scroll, hidden
+
+min-width: 60px;
+max-width: 400px;
+resize:horizotal
+
+CSS3 Mult Column Mode
+column-count
+column-gap
+column-rule
+
+position: relative;
+position: absolute;
+position: fixed;
+
+display: block;
+display: inline;
+display: inline-block;
+display: table;
+FlexBox
+*****LIÇÃO 2*****
+
+o comando relative proporciona o uso dos comandos top, bottom, left e right
+com o comando absoluto o elemento vai sair do fluxo normal e ir para as beiras do elemento que o contem

@@ -1,0 +1,48 @@
+MODULO 12
+trasition
+
+LICAO 1
+transition-property
+transition-duration 
+transition-timing-function: linear, ease, ease-in, ease-out, ease-in-out -> default value is ease
+transition-delay
+
+document.querySelectorAll("div");
+
+addEventListener("transitionend", onTransitionend, true);
+function onTransitionend(e) {
+		console.log(e.propertyName);
+		console.log(e.elapsedTime);
+}
+
+LICAO 2
+• translate(tx, ty)
+	 translateX(tx),translateY(ty)
+• scale()
+	scaleX(), scaleY()
+• rotate(), rotateX(), rotateY(), and rotateZ()
+• skew(), skewX(), and skewY()
+• matrix(), matrix3d()
+• perspective()
+• none():
+
+transform-origin: left top -> para tirar o valor padrao que corresponde ao centro do elemento
+
+• translate3d(tx, ty, tz)
+• translateZ(tz)
+
+• scale3d(sx, sy, sz)
+• scaleZ(sz)
+
+• rotate3d(xnum, ynum, znum, angle)
+	rotate3d(1, 0, 0, 60deg) performs a rotation about the X axis.
+	rotate3d(0, 1, 0, 60deg) performs a rotation about the Y axis.
+	rotate3d(0, 0, 1, 60deg) performs a rotation about the Z axis.
+
+
+animation-name: ballmovement;
+			animation-duration: 1s;
+			animation-delay: 0s;
+			animation-timing-function: linear; -> ease, ease-in, ease-out, ease-in-out
+			animation-iteration-count: 3;
+			animation-direction: normal; -> alternate
